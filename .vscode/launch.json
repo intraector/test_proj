@@ -1,0 +1,41 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Current device",
+			"request": "launch",
+			"type": "dart"
+		},
+		{
+			"name": "iPhone 12",
+			"request": "launch",
+			"type": "dart",
+			"deviceId": "7E977BF0-FA29-45B3-A7E4-144A54E2F222"
+		},
+		{
+			"name": "11_30 5.0 1.77 1080x1920",
+			"request": "launch",
+			"type": "dart",
+			"deviceId": "emulator-5554"
+		},
+		{
+			"name": "Honor 8x",
+			"request": "launch",
+			"type": "dart",
+			"deviceId": "MUENW19327000505"
+		},
+	],
+	"compounds": [
+		{
+			"name": "All Devices",
+			"configurations": [
+				"iPhone 12",
+				"Honor 8x",
+				"11_30 5.0 1.77 1080x1920",
+			],
+		}
+	]
+}
